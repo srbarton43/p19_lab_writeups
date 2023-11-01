@@ -1,0 +1,130 @@
+\documentclass{article}[12pt]
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage{color}
+\usepackage{cite}
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage{multirow}
+
+
+
+% --Defining Parameters--
+\oddsidemargin -0.25in		% Left margin is 1in + this value
+\textwidth 6.75in		% Right margin is not set explicitly
+\topmargin -0.25in		% Top margin is 1in + this value
+\textheight 9in			% Bottom margin is not set explicitly
+\columnsep 0.25in		% separation between columns
+
+% -- Change Section Numbers for Roman Numerals -- 
+\renewcommand{\thesection}{\Roman{section}} 
+\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+\renewcommand{\figurename}{Fig.}
+\renewcommand\refname{REFERENCES}
+
+
+
+
+
+
+\begin{document}
+
+\title{Optical Spectra}
+\author{Samuel Barton}
+
+
+%--- Heading ---
+\begin{center}
+\large{\textbf{Optical Spectra}}\\
+\bigskip
+\small{Samuel Barton}\\
+\small{\textit{Department of Physics \& Astronomy, Dartmouth College, Wilder Laboratory, Hanover, NH, USA}}\\
+~\\
+\small{\textbf{Partner:} Alex Ward; \textbf{Lab Section:} Thursday }\\
+~\\
+Dated: October 30, 2023\\
+
+\end{center}
+
+%--- Abstract ---
+\bigskip
+\begin{abstract}
+  This lab had three primary objectives.
+  The first was to observe how much the background noise measured by the sensor follows a gaussian distribution. Furthermore, we learned how to manipulate the software - fiddling with detection period and detections to acerage - to reduce noise and provide an ideal tool for data collection, reducing noise.
+  The second objective was to look at spectrographs created by different souces of light to determine whether the photons are a result of blackbody radiation, or from electrons changing orbit levels.
+  The third and final objective was to determine planck's constant comparing the spectrographs of different LEDs (and their prominent wavelength) to the voltage across them.
+  We observed through plotting noisy areas of the spectrograph on a histogram that standard gaussian noise was followed by the light intensity.
+  Furthermore, as predicted, the gas discharge bulbs looked like those of spectra found online.
+  Finally, planck's constant was measured to $ h = 6.33 \cdot 10^{-34}  $ which has a percent error of 4.53 \%.
+\end{abstract}
+\bigskip
+
+%--- Introduction ---
+\section{Introduction}
+
+A concise paragraph(s) describing the physics involved in the laboratory. You are welcome to include 1-2 important equations, as long as they support your introduction.
+
+\begin{equation}
+E = mc^2
+\end{equation}
+
+%--- Method ---
+\section{Method}
+
+A description of the method, equipment and procedures to be used. This can be 2-3 paragraphs and a sketch to support your explanation.
+
+%--- Data ---
+\section{Data}
+
+In this section, you should include tables or graphs and a description of what those numbers and graphs mean.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{| l | c | c | }
+
+\hline
+		& Giovanni	& Marcelo\\
+\hline \hline
+Apples	&	3		&	2\\ 	\hline
+Oranges	&	7		&	10\\ 	\hline
+Pumpkins &	4		&	2\\	\hline
+
+\end{tabular}
+\caption{A couple of sentences describing the quantities listed in the graph.}
+\label{Groceries}
+\end{table}
+
+When inserting tables or figures in a report, it is important to refer to them in your text or else it simply means that they had no purpose to be there. Simply remember to refer to them at least once, :).
+
+
+%--- Analysis ---
+\section{Analysis}
+
+The analysis is the part of the laboratory where you obtain interesting quantities (i.e. $g$, $V(t)$, etc) from your raw data through either plotting or manipulating some equations.\\
+
+This is where you should be describing the manipulations required to obtain the quantities of interests. Describe the equations used and the steps you took.
+
+\begin{equation}
+V_{R}(t) = \frac{RV_0}{\sqrt{R^2 + X_C^2}} \cos(\omega t + \phi)
+\end{equation}
+
+
+%--- Results ---
+\section{Results}
+
+Describe the final results. State what you found and how well you know it.
+
+%--- Conclusion ---
+\section{Conclusion}
+Discuss your results and whether they support the original proposition or not. This is like the abstract, only in retrospect.\\
+
+As stated in the Lab Guide, our expectations of the lab reports will increase every week. Please come see me in my office if you have any questions about your report, or if you would want to discuss about ways of improving your lab reports.\\
+
+%--- Aknowledgements ---
+\section{Acknowledgements}
+
+We thank our T.A. Gio for the useful discussions and helping us with our LaTex questions. :D\\
+
+
+\end{document}
