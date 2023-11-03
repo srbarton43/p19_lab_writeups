@@ -1,0 +1,5 @@
+﻿LED color,Voltage (V),Wavelength (nm),Frequency (Hz),Energy (J)
+Red,1.7101,654.4,$ 4.58 \times 10 ^{14} $,$ 4.429 \times 10^{-19} $
+Orange,1.8853,609.289,$ 4.92 \times 10 ^{14} $,$ 3.016 \times 10^{-19} $
+Yellow-orange,1.891,589.533,$ 5.089 \times 10 ^{14} $,$ 3.026 \times 10^{-19} $
+Blue,2.7608,464.422,$ 6.46 \times 10 ^{14} $,$ 2.736 \times 10^{-19} $
